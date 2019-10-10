@@ -88,7 +88,7 @@ Without ``setup.py``
 --------------------
 
 If you don't use ``setup.py`` (`it's easy to write one`_), you can create a
-``requirements.in`` file to declare the Flask dependency:
+``requirements.in`` file to declare the Flask dependency **(make sure you don't have existing `requirements.txt` file present, otherwise it might interfere)**:
 
 .. code-block:: ini
 
