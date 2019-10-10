@@ -5,7 +5,8 @@ pip-tools = pip-compile + pip-sync
 ==================================
 
 A set of command line tools to help you keep your ``pip``-based packages fresh,
-even when you've pinned them.  `You do pin them, right?`_
+even when you've pinned them.
+`You do pin them, right?`_ using `Better Package Management`_.
 
 .. image:: https://github.com/jazzband/pip-tools/raw/master/img/pip-tools-overview.png
    :alt: pip-tools overview for phase II
@@ -28,7 +29,8 @@ even when you've pinned them.  `You do pin them, right?`_
 .. |pyversions| image:: https://img.shields.io/pypi/pyversions/pip-tools.svg
    :alt: Supported Python versions
    :target: https://pypi.org/project/pip-tools/
-.. _You do pin them, right?: http://nvie.com/posts/pin-your-packages/
+.. _You do pin them, right?: https://nvie.com/posts/pin-your-packages/
+.. _Better Package Management: https://nvie.com/posts/better-package-management/
 
 
 Installation
